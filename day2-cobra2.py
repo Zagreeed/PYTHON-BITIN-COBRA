@@ -1,6 +1,6 @@
 from os import system
 
-system("cls")
+
 
 
 def showMenu():
@@ -42,24 +42,29 @@ while(True):
             print("Your inputed Num is greater than the options")
 
         if(val == 0):
+            system("cls")
             print("#####################")
             print("You exited the program")
             print("#####################")
             break
 
         if(val == 1):
+            system("cls")
             print("#####################")
             calc(1)
             print("#####################")
         if(val == 2):
+            system("cls")
             print("#####################")
             calc(2)
             print("#####################")
         if(val == 3):
+            system("cls")
             print("#####################")
             cal(3)
             print("#####################")
         if(val == 4):
+            system("cls")
             print("#####################")
             calc(4)
             print("#####################")
