@@ -16,6 +16,7 @@ def displaymenu()->None:
     print('3. Find Student           '.center(74,' '))
     print('4. Delete Student         '.center(74,' '))
     print('5. Update Student         '.center(74,' '))
+    print('6. Display All Student         '.center(74,' '))
     print('0. Quit/End               '.center(74,' '))
     print(' '*24,end="")
     print('-'*26)
