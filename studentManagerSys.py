@@ -6,6 +6,8 @@ slist:list = []     #local data container
 def loader()->None: pass
     
 def updater()->None:pass
+
+
 def addstudent(student:Student)->bool:pass
     
 def findstudent(idno:str)->Student:pass
@@ -21,6 +23,7 @@ def displaymenu()->None:
     system('cls')
     for i in range(1,4):print(' '*74)    
     print('- StudentList Management -'.center(74,' '))
+    
     print(' '*24,end="")
     print('-'*26)
     print('1. Create StudentList     '.center(74,' '))
